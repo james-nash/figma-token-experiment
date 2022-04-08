@@ -1,0 +1,70 @@
+{
+  "tokens": {
+    "base": {
+      "color": {
+        "black": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "red": {
+          "value": "#ff1c37",
+          "type": "color"
+        },
+        "orange": {
+          "value": "#ffb21c",
+          "type": "color"
+        },
+        "yellow": {
+          "value": "#fcff65",
+          "type": "color"
+        }
+      },
+      "gradient": {
+        "red-yellow": {
+          "value": "linear-gradient(171deg, {base.color.red} 0%, {base.color.yellow} 100%)",
+          "type": "color"
+        }
+      },
+      "radius": {
+        "010": {
+          "value": "4px",
+          "type": "borderRadius"
+        },
+        "020": {
+          "value": "8px",
+          "type": "borderRadius"
+        },
+        "030": {
+          "value": "12px",
+          "type": "borderRadius"
+        },
+        "040": {
+          "value": "16px",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "semantic": {
+      "color": {
+        "brand-primary": {
+          "value": "{base.color.red}",
+          "type": "color"
+        }
+      },
+      "radius": {
+        "inner": {
+          "value": "{base.radius.010}",
+          "type": "borderRadius"
+        },
+        "default": {
+          "value": "{base.radius.020}",
+          "type": "borderRadius"
+        },
+        "outer": {
+          "value": "{base.radius.040}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  }
+}
