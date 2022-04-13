@@ -1,0 +1,33 @@
+{
+  "name": "figma-token-experiment",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proof of concept for linking design tokens in Figma with code",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "style-dictionary": "^3.7.0",
+    "token-transformer": "0.0.20"
+  },
+  "scripts": {
+    "clean": "del dist/*",
+    "prebuild": "token-transformer --preserveRawValue src/tokens/figma-tokens.json tmp/sd-tokens.json",
+    "build": "style-dictionary build --config ./sd.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-nash/figma-token-experiment.git"
+  },
+  "keywords": [
+    "design-tokens",
+    "design-systems",
+    "figma"
+  ],
+  "author": "James Nash (https://cirrus@twiddles.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-nash/figma-token-experiment/issues"
+  },
+  "homepage": "https://github.com/james-nash/figma-token-experiment#readme"
+}
