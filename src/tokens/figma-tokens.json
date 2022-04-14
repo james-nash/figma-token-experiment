@@ -48,7 +48,8 @@
       "color": {
         "brand-primary": {
           "value": "{base.color.red}",
-          "type": "color"
+          "type": "color",
+          "description": "Our brand's primary color. Use as an accent for items that should attract the user's attention"
         }
       },
       "radius": {
