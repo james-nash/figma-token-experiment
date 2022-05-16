@@ -4,19 +4,23 @@
       "color": {
         "black": {
           "value": "#000000",
-          "type": "color"
+          "type": "color",
+          "description": "The color of the night"
         },
         "red": {
           "value": "#ff1c37",
-          "type": "color"
+          "type": "color",
+          "description": "Roses are..."
         },
         "orange": {
           "value": "#ffb21c",
-          "type": "color"
+          "type": "color",
+          "description": "Fake Tan"
         },
         "yellow": {
           "value": "#fcff65",
-          "type": "color"
+          "type": "color",
+          "description": "Artificial custard"
         }
       },
       "gradient": {
@@ -67,5 +71,6 @@
         }
       }
     }
-  }
+  },
+  "$themes": []
 }
